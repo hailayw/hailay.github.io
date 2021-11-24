@@ -1,0 +1,45 @@
+p {
+    font-family: Courier, monospace;
+  } 
+.footer {
+    padding-top: 40px;
+    position: relative;
+    clear: both; 
+    bottom: 0;
+  }
+  .validator {
+    width: 8%;
+    float: left;
+  }
+h1{
+  font-family: Verdana;
+  color:rgb(34, 36, 31);
+}  
+h2 {
+  font-family: Arial Black;
+  color:rgb(22, 24, 18);
+}
+body {
+  background-color: rgb(119, 115, 100);
+}
+.header {
+  background-color: #5e6e3e;
+}
+#mymoods {
+  margin-bottom: 30px;
+}
+.neighbor {
+  color:#ff0000;
+  font-weight: bold;
+  
+}
+#right-img {
+  float:left;
+  border-bottom: 30px;
+}
+#left-img {
+  float: left;
+  margin: auto;
+  width: 50%;
+  border-bottom: 30px;
+}  

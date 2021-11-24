@@ -1,7 +1,7 @@
 p {
     font-family: Courier, monospace;
   } 
-footer {
+.footer {
     padding-top: 40px;
     position: relative;
     clear: both; 
@@ -11,11 +11,14 @@ footer {
     width: 8%;
     float: left;
   }
+  h1 {
+    font-family: ;
+  }
   body {
-    background-color: rgb(177, 176, 171);
+    background-color: rgb(119, 115, 100);
   }
   .header {
-    background-color: #b97b07;
+    background-color: #5e6e3e;
   }
   #mymoods {
     margin-bottom: 30px;
