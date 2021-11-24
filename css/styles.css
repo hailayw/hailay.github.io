@@ -1,8 +1,8 @@
 p {
     font-family: Courier, monospace;
   } 
-footer {
-    position: absolute;
+.footer {
+    position: relative;
     bottom: 0;    
   }
   .validator {
@@ -10,5 +10,8 @@ footer {
     float: left;
   }
   body {
-    background-color: rgb(190, 185, 185);
+    background-color: rgb(177, 176, 171);
+  }
+  .header {
+    background-color: #bd9854;
   }
