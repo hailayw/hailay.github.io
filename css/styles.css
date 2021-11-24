@@ -1,9 +1,11 @@
 p {
     font-family: Courier, monospace;
   } 
-.footer {
+footer {
+    padding-top: 40px;
     position: relative;
-    bottom: 0;    
+    clear: both; 
+    bottom: 0;
   }
   .validator {
     width: 8%;
@@ -13,5 +15,18 @@ p {
     background-color: rgb(177, 176, 171);
   }
   .header {
-    background-color: #bd9854;
+    background-color: #b97b07;
   }
+  #mymoods {
+    margin-bottom: 30px;
+  }
+  #right-img {
+    float:left;
+    border-bottom: 30px;
+  }
+  #left-img {
+    float: left;
+    margin: auto;
+    width: 50%;
+    border-bottom: 30px;
+  }  
