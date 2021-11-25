@@ -1,16 +1,6 @@
 p {
     font-family: Courier, monospace;
-  } 
-.footer {
-    padding-top: 40px;
-    position: relative;
-    clear: both; 
-    bottom: 0;
-  }
-  .validator {
-    width: 8%;
-    float: left;
-  }
+} 
 h1{
   font-family: Verdana;
   color:rgb(34, 36, 31);
@@ -21,6 +11,10 @@ h2 {
 }
 body {
   background-color: rgb(119, 115, 100);
+}
+.validator {
+  width: 8%;
+  float: left;
 }
 .header {
   background-color: #5e6e3e;
@@ -44,3 +38,7 @@ body {
   width: 50%;
   border-bottom: 30px;
 }  
+footer{
+  border-top: 2px solid whitesmoke;
+  bottom: 0; 
+}
