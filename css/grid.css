@@ -1,0 +1,66 @@
+div > div{
+   padding: 5px;
+}
+.container {
+    display: grid;
+    /*border: 1px solid gold;*/
+    grid-gap: 3px;
+    background-color: rgb(98, 88, 156);
+    grid-template-columns: repeat(12,1fr);    
+    grid-template-rows: 60px 40px auto 40px;    
+    width: 100%;
+    height: 100%;    
+}
+.welcome {
+    /*background-image: url(../images/tigray.png);*/
+    background-color: orange;
+    grid-row: 1;    
+    grid-column: 1/ 3;    
+}
+
+.signin {    
+    background-color: orange;
+    grid-column: 11 / 12;    
+}
+.signup {
+    background-color: orange;
+    grid-column: 12 / -1;    
+}
+
+.allitems {
+    background-color: rgb(149, 145, 202);
+    grid-row: 2;    
+}
+.services {
+    background-color: rgb(149, 145, 202);
+    grid-row: 2;    
+}
+.search {
+    background-color: white;
+    grid-row: 1;
+    grid-column: 3 / 12;    
+}
+.search input{
+    border-radius: 5px;
+    width: 100%;
+    height: 90%;
+}
+.cart {
+    grid-row: 1;
+    grid-column: 12 / -1;   
+}
+.cart img {
+    width: 90px;
+    height: 55px;
+}
+.content {
+    background-color: rgb(243, 243, 225);
+    grid-row: 3;
+    grid-column: 1 / -1;
+    height: 400px;
+}
+.footer {
+    background-color: rgb(190, 190, 219);
+    grid-row: 4;
+    grid-column: 1 / -1;
+}
