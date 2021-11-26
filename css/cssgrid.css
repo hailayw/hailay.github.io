@@ -8,6 +8,7 @@ div > div{
     background-color: rgb(98, 88, 156);
     grid-template-columns: repeat(12,1fr);    
     grid-template-rows: 60px 40px auto 40px;    
+    border-radius: 5px;
     width: 100%;
     height: 100%;    
 }
@@ -23,7 +24,7 @@ div > div{
     grid-column: 3 / 12;    
 }
 .search input{
-    border-radius: 5px;
+    border-radius: 6px;
     width: 100%;
     height: 90%;
 }
