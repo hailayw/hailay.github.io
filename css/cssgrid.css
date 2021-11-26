@@ -30,8 +30,8 @@ div > div{
     width: 30%;
     height: 40px;
     margin-right: 100px;
-    flex: 2;
-    flex-basis: 300px;
+    flex-shrink: 1;
+    flex-basis: 500px;
 }
 .header .signin {    
     color: rgb(255, 255, 255);
