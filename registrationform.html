@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Registration</title>
+    <link rel="stylesheet" href="css/styleform.css">
+    <link rel="stylesheet" href="css/dropbtn.css">
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+        
+        body {
+            background-color: rgb(218, 224, 222);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--grid layout: 5 rows and 4 columns-->
+    <form action="https://abc.com">
+        <div class="container">
+            <!--row 1, entire columns-->
+            <div class="header">
+                <div class="welcome">Workshop Registration</div>
+                <!-- <div class="dropdown">More Actions</div> -->
+                <div class="dropdown">
+                    <button class="dropbtn">MoreActions</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
+            <!--row 2, entire columns-->
+            <div class="underline" class="register">Register now while seats are avaialable!</div>
+            <div class="user">
+                <label class="required" for="fname">First Name</label>
+                <label class="required" for="lname">Last Name</label>
+                <label class="required" for="comp">Company/Institution</label>
+                <label class="required" id="addrlabel" for="address">Address</label>
+                <label for="city">City</label>
+                <label for="state">State/Province/Region</label>
+                <label for="country">Country</label>
+                <label class="required" for="email">Email</label>
+                <label class="required" for="pnum">Phone Number</label>
+            </div>
+            <div class="userfields">
+                <input type="text" id="fname" size="10" maxlength="8" required/>
+                <input type="text" id="lname" size="10" maxlength="8" required/>
+                <input type="text" id="comp" size="10" maxlength="8" required/>
+                <textarea name="address" id="address" cols="30" rows="10" required></textarea>
+                <input type="text" id="city" size="10" maxlength="8" />
+                <select name="state" id="state">
+                    <option value="">-Select-</option>
+                </select>
+                <select name="country" id="country">
+                    <option value="">-Select-</option>                    
+                </select>
+                <input type="email" id="email" size="10" maxlength="8" required/>
+                <input type="text" id="pnum" size="10" maxlength="8" required/>
+            </div>
+            <div class="food">
+                <div class="underline">Lunch</div>
+                <label for="meal">Meal Preference</label>
+                <div class="underline" class="paymentd">Payment Details</div>
+                <label id="checkboxlabel" for="paymentmode">Payment Mode</label>
+                <label id="chequelabel" for="chequenum">DD /Cheque No.</label>
+                <label for="bankname">Drawn On (Bank Name)</label>
+                <label for="payable">Payable at</label>
+            </div>
+            <div class="foodfields">
+                <select name="mealpref" id="meal">
+                    <option value="Vegetarian">Vegetarian</option>
+                    <option value="Chicken">Chicken</option>
+                    <option value="Turkey">Turkey</option>
+                    <option value="Beef">Beef</option>
+                </select>
+                <!-- <div id="paymentmodefield">
+                    <input class="checkbox" type="checkbox" id="paymentmode1" name="cash" />Cash
+                    <input class="checkbox" type="checkbox" id="paymentmode2" name="cheque" />Cheque
+                    <input class="checkbox" type="checkbox" id="paymentmode3" name="demanddraft" />Demand Draft
+                </div> -->
+                <input id="chequefield" type="text" size="10" maxlength="8" />
+                <input type="text" id="bankname" size="10" maxlength="8" />
+                <input type="text" id="payable" size="10" maxlength="8" />
+            </div>
+            <div class="submit">
+                <div class="submitform"><input type="submit" value="Submit" /></div>
+                <div class="reset"><input type="submit" value="Reset" /></div>
+            </div>
+        </div>
+    </form>
+    <!--Footer-->
+    <div class="footer">
+        <hr>
+        <footer>
+            <div>&copy; 2021 Tigmart. All Rights Reserved</div>
+            <div>Maharishi International University (MIU)</div>
+            <div>Address: 1000 N 4<sup>th</sup> St., Fairfield, Iowa, 52557</div>
+            <div><span>Email: </span><a href="mailto:hgweldu@miu.edu">hgweldu@miu.edu </a></div>
+            <div>
+                <a href="http://validator.w3.org/check?uri=https://hailay.github.io/tigmart.html" target="_blank">
+                    <img src="images/html_checker.png" alt="HTML Validator"></a>
+                <a href="http://jigsaw.w3.org/css-validator/validator?uri=https://hailay.github.io/css/cssgrid.css" target="_blank">
+                    <img src="images/css_checker.png" alt="CSS Validator" width="100" height="31"></a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
