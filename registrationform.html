@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workshop Registration</title>
-    <link rel="stylesheet" href="css/styleform.css">
+    <link rel="stylesheet" href="css/styleform1.css">
     <link rel="stylesheet" href="css/dropbtn.css">
     <style>
         html,
@@ -18,11 +18,16 @@
         body {
             background-color: rgb(218, 224, 222);
         }
+        
+        .checkbox {
+            width: 35px;
+            height: 15px;
+            margin: 5px;
+        }
     </style>
 </head>
 
 <body>
-
     <!--grid layout: 5 rows and 4 columns-->
     <form action="https://abc.com">
         <div class="container">
@@ -31,20 +36,20 @@
                 <div class="welcome">Workshop Registration</div>
                 <!-- <div class="dropdown">More Actions</div> -->
                 <div class="dropdown">
-                    <button class="dropbtn">MoreActions</button>
+                    <button class="dropbtn">More Actions</button>
                     <div class="dropdown-content">
                         <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+                        <!--a href="#">Link 2</a>
+                        <a href="#">Link 3</a> -->
                     </div>
                 </div>
             </div>
             <!--row 2, entire columns-->
-            <div class="underline" class="register">Register now while seats are avaialable!</div>
+            <div class="underline register">Register now while seats are available!</div>
             <div class="user">
                 <label class="required" for="fname">First Name</label>
                 <label class="required" for="lname">Last Name</label>
-                <label class="required" for="comp">Company/Institution</label>
+                <label class="required" for="comp">Company/Institutin</label>
                 <label class="required" id="addrlabel" for="address">Address</label>
                 <label for="city">City</label>
                 <label for="state">State/Province/Region</label>
@@ -56,7 +61,7 @@
                 <input type="text" id="fname" size="10" maxlength="8" required/>
                 <input type="text" id="lname" size="10" maxlength="8" required/>
                 <input type="text" id="comp" size="10" maxlength="8" required/>
-                <textarea name="address" id="address" cols="30" rows="10" required></textarea>
+                <textarea name="address" id="address" cols="30" rows="8" required></textarea>
                 <input type="text" id="city" size="10" maxlength="8" />
                 <select name="state" id="state">
                     <option value="">-Select-</option>
@@ -83,11 +88,11 @@
                     <option value="Turkey">Turkey</option>
                     <option value="Beef">Beef</option>
                 </select>
-                <!-- <div id="paymentmodefield">
+                <div id="paymentmodefield">
                     <input class="checkbox" type="checkbox" id="paymentmode1" name="cash" />Cash
                     <input class="checkbox" type="checkbox" id="paymentmode2" name="cheque" />Cheque
-                    <input class="checkbox" type="checkbox" id="paymentmode3" name="demanddraft" />Demand Draft
-                </div> -->
+                    <input class="checkbox" type="checkbox" id="paymentmode3" name="demanddraft" />Demand
+                </div>
                 <input id="chequefield" type="text" size="10" maxlength="8" />
                 <input type="text" id="bankname" size="10" maxlength="8" />
                 <input type="text" id="payable" size="10" maxlength="8" />
