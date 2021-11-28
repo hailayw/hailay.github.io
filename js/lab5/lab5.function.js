@@ -12,6 +12,7 @@ function sum(...n) {
     console.log(z);
     return z;
 }
+//test data
 let arr = [10, 20, 23, 23]
 let result = sum(...arr);
 
@@ -23,6 +24,7 @@ let result = function getNewArray(...strArr) {
     return strArr.filter(s => s.length > 5 && s.indexOf("a"));
 };
 
+//test data
 let strArr = ["Hailay", "Berhanu", "Rose"];
 let r = result(...strArr);
 
