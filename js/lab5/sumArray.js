@@ -6,5 +6,7 @@ function sum(...n) {
     console.log(z);
     return z;
 }
-let arr = [1, 2, 23, 34, 45, 56]
+let arr = [10, 20, 23, 23]
 let result = sum(...arr);
+
+//output: 23 + 23 = 46
