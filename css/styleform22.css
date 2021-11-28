@@ -2,18 +2,37 @@ label {
     width: 150px;
     height: 20px;
     font-weight: bold;
-    margin: 13px 10px 13px 5px;
+    margin: 13px 13px 13px 5px;
+    /* margin-top: 13px; */
 }
 
 textarea {
     width: 237px;
+    /* height: 20px; */
     margin: 10px;
+    /* padding: 20px; */
 }
 
 input {
     width: 237px;
     height: 20px;
     margin: 10px;
+    /* padding: 20px; */
+}
+
+input .checkbox {
+    width: 1px;
+    height: 1px;
+    margin: 3px;
+    /* padding: 20px; */
+}
+
+#checkboxlabel {
+    width: 150px;
+    height: 20px;
+    font-weight: bold;
+    margin: 1px 1px 1px 1px;
+    /* padding: 20px; */
 }
 
 select {
@@ -32,20 +51,17 @@ select {
 }
 
 #addrlabel {
-    margin-bottom: 130px;
-}
-
-#address {
-    margin-bottom: 20px;
+    margin-bottom: 150px;
 }
 
 .container {
     display: grid;
     grid-gap: 3px;
     border: 1px solid rgb(153, 212, 187);
+    /* margin: 40px; */
     background-color: rgb(247, 252, 251);
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 50px 40px 550px 50px;
+    grid-template-rows: 50px 40px 600px 50px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -54,6 +70,7 @@ select {
 
 .header {
     display: flex;
+    /* border-radius: 6px; */
     background-color: rgb(153, 212, 187);
     padding: 5px;
     grid-row: 1;
@@ -71,16 +88,14 @@ select {
     grid-row: 2;
 }
 
-.register {
-    grid-row: 2;
-    grid-column: 1/ -1;
-}
-
 .user {
     display: flex;
     grid-row: 3;
+    /* margin-left: 13px; */
     grid-column: 1 / 2;
+    /* width: 100%; */
     flex-direction: column;
+    /* background-color: rgb(245, 248, 237); */
     height: 100%;
 }
 
@@ -89,6 +104,7 @@ select {
     grid-row: 3;
     grid-column: 2 / 5;
     flex-direction: column;
+    /* background-color: rgb(231, 225, 222); */
 }
 
 .food {
@@ -96,7 +112,9 @@ select {
     grid-row: 3;
     margin-left: 50px;
     grid-column: 6 / 7;
+    /* width: 100%; */
     flex-direction: column;
+    /* background-color: rgb(245, 248, 237); */
 }
 
 .foodfields {
@@ -116,48 +134,52 @@ select {
 }
 
 #paymentmodefield {
-    margin-top: 60px;
+    margin-top: 50px;
     width: 100px;
     padding: 5px;
+    /* margin-left: 1px; */
 }
 
 #chequefield {
-    margin-top: 30px;
+    margin-top: 180px;
 }
 
 #chequelabel {
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .submit {
     display: flex;
-    /* padding: 20px; */
+    /* border-radius: 6px; */
+    padding: 20px;
     grid-row: 4;
+    justify-content: center;
     grid-column: 1 / -1;
     color: rgb(255, 255, 255);
     background-color: rgb(200, 211, 206);
     font-size: 20px;
-    justify-content: center;
+    /* align-content: center; */
 }
 
 .submit input {
     grid-column: 7/ 7;
     background-color: rgb(153, 212, 187);
-    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
     height: 30px;
-    margin: 10px 2px 10px 5px;
+    margin-bottom: 13px;
 }
 
-
-/* .submit .submitform {
+.submit .submitform {
     height: 20px;
     margin-bottom: 13px;
 }
 
 .submit .reset {
-    width: 200px;
+    width: auto;
     height: 20px;
-} */
+}
 
 .footer {
     grid-row: 5;
