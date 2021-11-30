@@ -29,3 +29,13 @@ let strArr = ["Hailay", "Berhanu", "Rose"];
 let r = result(...strArr);
 
 //output: ['Hailay', 'Berhanu']
+
+//find shortest string
+function shortest(s1, s2, s3) {
+    let s = s1;
+    if (s.length > s2.length)
+        s = s2;
+    if (s.length > s3.length)
+        s = s3;
+    return s;
+}

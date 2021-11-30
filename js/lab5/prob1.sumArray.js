@@ -10,3 +10,8 @@ let arr = [10, 20, 23, 23]
 let result = sum(...arr);
 
 //output: 23 + 23 = 46
+
+let arr = [1, 50, 40, 3, 10];
+let sum = arr.filter(n => n > 20)
+.reduce((accumulator, current) => accumulator + current);
+console.log(sum);

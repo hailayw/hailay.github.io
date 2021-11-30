@@ -4,11 +4,12 @@
 
 //1. using function expression
 let result = function getNewArray(...strArr) {
-    return strArr.filter(s => s.length > 5 && s.indexOf("a"));
+    return strArr.filter(s => s.length >= 5 && s.includes("e"));
 };
 
-let strArr = ["Hailay", "Berhanu", "Rose"];
+let strArr = ["Hailay", "Berhanu", "Roseye"];
 let r = result(...strArr);
+console.log(r);
 
 //output: ['Hailay', 'Berhanu']
 
