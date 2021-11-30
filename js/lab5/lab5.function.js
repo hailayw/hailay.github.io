@@ -21,11 +21,11 @@ let result = sum(...arr);
 
 //2. getNewArray(), using function expression
 let result = function getNewArray(...strArr) {
-    return strArr.filter(s => s.length > 5 && s.indexOf("a"));
+    return strArr.filter(s => s.length > 5 && s.includes("a"));
 };
 
 //test data
-let strArr = ["Hailay", "Berhanu", "Rose"];
+let strArr = ["Hailay", "Berhanu", "Roseyi"];
 let r = result(...strArr);
 
 //output: ['Hailay', 'Berhanu']
